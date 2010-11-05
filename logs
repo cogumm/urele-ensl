@@ -1,0 +1,30 @@
+
+==> dyno-2914308.log (crash) <==
+/usr/ruby1.8.7/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- sinatra (LoadError)
+	from /usr/ruby1.8.7/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from ./tracks.rb:2
+	from /usr/ruby1.8.7/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/ruby1.8.7/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from config.ru:1
+	from /home/heroku_rack/heroku.ru:23
+	from /usr/ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/builder.rb:29:in `instance_eval'
+	from /usr/ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/builder.rb:29:in `initialize'
+	from /usr/ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/builder.rb:46:in `new'
+	from /usr/ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/builder.rb:46:in `map'
+	from /home/heroku_rack/heroku.ru:18
+	from /usr/ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/builder.rb:29:in `instance_eval'
+	from /usr/ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/builder.rb:29:in `initialize'
+	from /home/heroku_rack/heroku.ru:11:in `new'
+	from /home/heroku_rack/heroku.ru:11
+	from /usr/ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/builder.rb:29:in `instance_eval'
+	from /usr/ruby1.8.7/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/builder.rb:29:in `initialize'
+	from /home/heroku_rack/heroku.ru:1:in `new'
+	from /home/heroku_rack/heroku.ru:1
+
+-----> Your application is requiring a file that it can't find.
+
+       Most often this is due to missing gems, or it could be that you failed
+       to commit the file to your repo.  See http://docs.heroku.com/gems for
+       more information on managing gems.
+
+       Examine the backtrace above this message to debug.
