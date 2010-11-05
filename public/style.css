@@ -1,0 +1,86 @@
+* {margin:0; padding:0;}
+body {
+ background:#000 url("/images/bg-wooddy.jpg") repeat-x left top;
+ font:16px/1.4em Arial, sans-serif;
+ color:#000;
+ text-align:center;
+}
+h2 {
+  color:#fff;
+  margin-top:40px;
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:24px;
+  font-weight:bold;
+}
+#page {
+  width:900px;
+  margin:0 auto;
+  text-align:left;
+}
+#top {
+  background:url("/images/top.jpg") center top no-repeat;
+  height:175px;
+  padding:50px 70px 0;
+}
+#top h1 {
+  margin:0 auto;
+  width:171px;
+}
+.tracka, .trackb {
+  color:#7d0000;
+  float:left;
+  font-size:2.3em;
+  font-weight:bold;
+  line-height:1em;
+  position:relative;
+  top:-60px;
+  text-shadow:0 2px 2px #999999;
+  width:38%;
+}
+.trackb {
+  margin-left:172px;
+  text-align:right;
+}
+a, a:visited {
+  color:#ffae30;
+}
+a:hover {
+  color:#ff7e00;
+}
+.tweet {
+  margin:4px 0;
+  width:400px;
+  padding:12px;
+  color:#fff;
+  border-bottom:1px solid #555;
+  overflow:hidden;
+}
+.tweet img {
+  float:left;
+  margin:0 8px 4px 0;
+  width:48px;
+  height:48px;
+  border:1px solid #888;
+}
+.tweet .text {
+  margin:0;
+  padding-bottom:10px;
+  float:right;
+  width:330px;
+}
+.tweet .time a {
+  font-size:80%;
+  color:#888;
+  white-space:nowrap;
+  text-decoration:none;
+}
+.tweet .time a:hover {
+  text-decoration:underline;
+}
+.twitterTracker {
+  float:left;
+  margin-top:-45px;
+}
+.twitterTracker.A {
+  margin-right:48px;
+}
